@@ -29,8 +29,8 @@ def getTotalX(a, b):
                 possible.append(i)
     #print("possible: ", possible)
     for j in possible:
-        if (all(y % j == 0 for y in b)) == True:
-            ans.append (j)
+        if all(y % j == 0 for y in b) == True:
+            ans.append(j)
             
     #print("ans: ", ans)
     return len(ans)
