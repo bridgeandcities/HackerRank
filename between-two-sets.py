@@ -27,12 +27,12 @@ def getTotalX(a, b):
     for i in range(gcd, lcm+1):
             if all(i % x == 0 for x in a) == True:
                 possible.append(i)
-    print("possible: ", possible)
+    #print("possible: ", possible)
     for j in possible:
         if (all(y % j == 0 for y in b)) == True:
             ans.append (j)
             
-    print("ans: ", ans)
+    #print("ans: ", ans)
     return len(ans)
 
 if __name__ == '__main__':
