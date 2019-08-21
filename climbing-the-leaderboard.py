@@ -1,5 +1,8 @@
 #!/bin/python3
-
+/*
+This code fails test case 6 to 9 due to timeout error. Needs optimization (perhaps by implementing binary search)
+but is correct given enough time to run.
+*/
 import math
 import os
 import random
